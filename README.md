@@ -45,19 +45,18 @@ The pipeline consists of five main stages:
   - GPT-4.1-mini
   - https://platform.openai.com/docs
 
-## Code Written by Our Team:
-## Custom scripts and notebooks:
+## Code Written by Our Team
+### Custom scripts and notebooks
 `src/Gemma_Testing_CS175_Aditi.ipynb`  
 `src/openai_moe_text2sql.ipynb`  
 `src/SQL_Data_Execution_Pipeline.ipynb`
 
-## Adapted / Baseline Code
+### Adapted / Baseline Code
 `src/baseline_t5/`  
 (Based on publicly available Text-to-SQL baseline implementations using T5 models)
 
-## Source Code Directory
+### Source Code Directory
 All project source code written by the team is located in `src/`.
-
 
 ## Data / Model Links
 ### Spider Dataset
