@@ -33,12 +33,12 @@ The pipeline consists of five main stages:
   - suriya7/t5-base-text-to-sql
   - tscholak/1zha5ono
 - Spider dataset
-- 
 
 ## Code That We Wrote:
 - src/baseline_t5/
-- src/
-- src/
+- src/Gemma_Testing_CS175_Aditi.ipynb
+- src/GptModel_And_MixtureOfExperts_Mehek.ipynb
+- src/SQL_Data_Execution_Pipeline.ipynb
 
 ## Source Code Directory:
 All project source code written by the team is located in src/.
