@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# the script that runs the t5 models (can be used for all 3, but i mainly used it for one)
+# writtenby sindhuja
 set -e
 
 SPIDER_DIR=""
