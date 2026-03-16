@@ -1,3 +1,7 @@
+# This script evaluates execution accuracy for predicted SQL queries on the Spider dataset.
+# It executes both the predicted SQL and the ground-truth SQL on the corresponding SQLite database and compares the returned results to see if they are the same.
+# also explains the errors 
+# written by sindhuja
 import argparse
 import json
 import os
