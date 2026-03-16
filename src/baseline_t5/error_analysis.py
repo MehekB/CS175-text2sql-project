@@ -1,3 +1,6 @@
+# This script performs error analysis on the execution evaluation output of our Text-to-SQL models. 
+# It reads a JSONL file containing prediction results, categorizes each example into error buckets (e.g., syntax, schema grounding, joins, aggregation)
+# written by sindhuja 
 import argparse
 import json
 from collections import Counter, defaultdict
