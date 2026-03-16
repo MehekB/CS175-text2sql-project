@@ -27,19 +27,45 @@ The pipeline consists of five main stages:
 - argparse
 - google-colab (environment used for experiments)
 
-## Online Publicly Available Repository Code Used or Adapted:
+## Online Publicly Available Repository Code Used or Adapted
 - Hugging Face model repositories:
-  - cssupport/t5-small-awesome-text-to-sql
-  - suriya7/t5-base-text-to-sql
-  - tscholak/1zha5ono
-- Spider dataset
+  - https://huggingface.co/cssupport/t5-small-awesome-text-to-sql
+  - https://huggingface.co/suriya7/t5-base-text-to-sql
+  - https://huggingface.co/tscholak/1zha5ono
 
-## Code That We Wrote:
-- src/baseline_t5/
-- src/Gemma_Testing_CS175_Aditi.ipynb
-- src/GptModel_And_MixtureOfExperts_Mehek.ipynb
-- src/SQL_Data_Execution_Pipeline.ipynb
+- Spider Dataset
+  - https://yale-lily.github.io/spider
+
+## External Models / APIs Used
+- Google Gemma Models
+  - https://huggingface.co/google/gemma-1.1-2b-it
+  - https://huggingface.co/google/gemma-3-4b-it
+
+- OpenAI API
+  - GPT-4.1-mini
+  - https://platform.openai.com/docs
+
+## Code Written by Our Team:
+## Custom scripts and notebooks:
+src/Gemma_Testing_CS175_Aditi.ipynb
+src/GptModel_And_MixtureOfExperts_Mehek.ipynb
+src/SQL_Data_Execution_Pipeline.ipynb
+
+## Adapted / Baseline Code
+src/baseline_t5/
+(Based on publicly available Text-to-SQL baseline implementations using T5 models)
 
 ## Source Code Directory:
 All project source code written by the team is located in src/.
 
+
+## ** Data / Model Links **:
+## Spider Dataset
+https://yale-lily.github.io/spider
+
+## HuggingFace Models Used
+https://huggingface.co/cssupport/t5-small-awesome-text-to-sql
+https://huggingface.co/suriya7/t5-base-text-to-sql
+https://huggingface.co/tscholak/1zha5ono
+https://huggingface.co/google/gemma-1.1-2b-it
+https://huggingface.co/google/gemma-3-4b-it
