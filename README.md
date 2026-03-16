@@ -22,8 +22,7 @@ The pipeline consists of five main stages:
 - pandas
 - numpy
 - matplotlib
-- seaborn (only if actually used)
-- scikit-learn (only if actually used)
+- scikit-learn
 - json
 - argparse
 - google-colab (environment used for experiments)
