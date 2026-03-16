@@ -13,3 +13,34 @@ The pipeline consists of five main stages:
 3. Prompt engineering experiments
 4. Error analysis
 5. Mixture-of-experts routing
+
+## **Libraries / Packages Used:**
+- Python 3.x
+- transformers
+- torch
+- datasets
+- pandas
+- numpy
+- matplotlib
+- seaborn (only if actually used)
+- scikit-learn (only if actually used)
+- json
+- argparse
+- google-colab (environment used for experiments)
+
+## Online Publicly Available Repository Code Used or Adapted:
+- Hugging Face model repositories:
+  - cssupport/t5-small-awesome-text-to-sql
+  - suriya7/t5-base-text-to-sql
+  - tscholak/1zha5ono
+- Spider dataset
+- 
+
+## Code That We Wrote:
+- src/baseline_t5/
+- src/
+- src/
+
+## Source Code Directory:
+All project source code written by the team is located in src/.
+
