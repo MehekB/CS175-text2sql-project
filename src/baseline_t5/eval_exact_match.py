@@ -1,3 +1,6 @@
+# This script evaluates normalized exact-match accuracy for predicted SQL queries.
+# It compares each predicted SQL query with the ground-truth SQL from the Spider dataset after normalizing formatting differences
+#written by sindhuja
 import argparse
 import json
 import re
