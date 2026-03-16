@@ -47,23 +47,23 @@ The pipeline consists of five main stages:
 
 ## Code Written by Our Team:
 ## Custom scripts and notebooks:
-src/Gemma_Testing_CS175_Aditi.ipynb
-src/GptModel_And_MixtureOfExperts_Mehek.ipynb
-src/SQL_Data_Execution_Pipeline.ipynb
+`src/Gemma_Testing_CS175_Aditi.ipynb`  
+`src/openai_moe_text2sql.ipynb`  
+`src/SQL_Data_Execution_Pipeline.ipynb`
 
 ## Adapted / Baseline Code
-src/baseline_t5/
+`src/baseline_t5/`  
 (Based on publicly available Text-to-SQL baseline implementations using T5 models)
 
-## Source Code Directory:
-All project source code written by the team is located in src/.
+## Source Code Directory
+All project source code written by the team is located in `src/`.
 
 
-## ** Data / Model Links **:
-## Spider Dataset
+## Data / Model Links
+### Spider Dataset
 https://yale-lily.github.io/spider
 
-## HuggingFace Models Used
+### HuggingFace Models Used
 https://huggingface.co/cssupport/t5-small-awesome-text-to-sql
 https://huggingface.co/suriya7/t5-base-text-to-sql
 https://huggingface.co/tscholak/1zha5ono
