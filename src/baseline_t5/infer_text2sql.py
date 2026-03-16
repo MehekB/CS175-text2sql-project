@@ -1,3 +1,6 @@
+# loads spider, builds schema, and basically runs the whole t5small model 
+# based this off the t5 implementation 
+# written by sindhuja
 import argparse
 import json
 import os
